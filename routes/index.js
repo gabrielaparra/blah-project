@@ -4,7 +4,7 @@ const router  = express.Router();
 /* GET home page. */
 // 'router' comes from line 11 in app.js
 router.get('/', (req, res, next) => {
-  res.render('index');
+  res.render('index.ejs');
 });
 
 router.get('/about', (req, res, next) => {

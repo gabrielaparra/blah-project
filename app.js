@@ -38,8 +38,8 @@ app.use('/', indexRoutes);
               // routes in the routes/index.js file
 
                       // import routes/admin-routes.js
-// const adminRoutes = require('./routes/admin-routes.js');
-// app.use('/', adminRoutes);
+const adminRoutes = require('./routes/admin-routes.js');
+app.use('/', adminRoutes);
 
 //-----------------------------------------------------------
 
